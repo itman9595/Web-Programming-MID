@@ -1,0 +1,112 @@
+img {
+	width: 100px;
+	height: 100px;
+}
+.container {
+	margin: 0 auto;
+	background-color: #330033;
+	width: 1000px;
+	height: 720px;
+}
+.container > .tabs {
+	top:20px;
+	left: 20px;
+	position: relative;
+	width: 95%;
+	height: 40px;
+	background-color: #cce6ff;
+}
+.container > .tabs > ul {
+	text-align: center;
+}
+.container > .tabs > ul > li {
+	opacity: .5;
+	color:white;
+	background-color: #333399;
+	padding: 5px;
+	margin-right: 20px;
+	border-radius: 10px;
+	top: 5px;
+	position: relative;
+	display: inline-block;
+}
+.container > .tabs > ul > li:active {
+	opacity: 1;
+}
+.container > .tabs > ul > li:hover {
+	opacity: 1;
+}
+.container > .menus {
+	top: 40px;
+	position: relative;
+}
+.container > .menus > div {
+	display: inline-block;
+}
+.container > .menus > .left {
+	background-color: #cce6ff;
+	padding: 30px;
+	left: 103px;
+	position: fixed;
+}
+.container > .menus > .left > div {
+	display: block;
+}
+.container > .menus > .left > div > p {
+	text-align: center;
+}
+.container > .menus > .right {
+	height: 520px;
+	border: 2px solid #3366cc;
+	left: 350px;
+	position: relative;
+	background-color: #cce6ff;
+}
+.container > .menus > .right > div {
+	/*border: 2px solid #3366cc;*/
+	padding: 30px;
+	margin-bottom: 20px;
+	display: block;
+}
+.container > .menus > .right > div > img, .right > div > p {
+	margin-right: 20px;
+	display: inline-block;
+}
+.container > .menus > .right > div > p {
+	max-width: 410px;
+	text-align: center;
+}
+.container > .footer {
+	top:60px;
+	left: 20px;
+	position: relative;
+	width: 95%;
+	height: 70px;
+	background-color: #cce6ff;
+}
+.container > .footer > p, .footer > .social_networks {
+	display: inline-block;
+}
+.container > .footer > p {
+	left: 30px;
+	top: -10px;
+	position: relative;
+	text-align: center;
+}
+.container > .footer > .social_networks {
+	right: -300px;
+	position: relative;
+}
+.container > .footer > .social_networks > a > img {
+	top: 10px;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	display: inline-block;
+}
+@media screen and (min-width: 1000px) {
+	.container {
+		background-color: #333399;
+	}
+}
